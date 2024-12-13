@@ -1,0 +1,738 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+aside{
+    height: 1150px;
+    width: 300px;
+    background-color: aliceblue;
+}
+aside img{
+    height: 140px;
+    width: 170px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+aside span img{
+    position: absolute;
+    top: 230px;
+    height: 40px;
+    width: 30px;
+    left: 80px;
+}
+aside p1{
+    position: absolute;
+    top: 245px;
+    left: 120px;
+    font-size: 25px;
+    color: aqua;
+    font-weight: bolder;
+}
+
+.img1{
+    position: absolute;
+    top: 300px;
+}
+aside p2{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+    font-size: 25px;
+    color: aqua;
+    font-weight: bolder;
+}
+.img2{
+    position: absolute;
+    top: 370px;
+}
+aside p3{
+    position: absolute;
+    top: 375px;
+    left: 120px;
+    font-size: 25px;
+    color: aqua;
+    font-weight: bolder;
+}
+.img3{
+    position: absolute;
+    top: 440px;
+}
+aside p4{
+    position: absolute;
+    top: 450px;
+    left: 120px;
+    font-size: 25px;
+    color: aqua;
+    font-weight: bolder;
+}
+.img4{
+    position: absolute;
+    top: 520px;
+}
+aside p5{
+    position: absolute;
+    top: 530px;
+    left: 120px;
+    font-size: 25px;
+    color: aqua;
+    font-weight: bolder;
+}
+.management h1{
+    position: absolute;
+    top: 650px;
+    left: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.management p{
+    position: absolute;
+    top: 700px;
+    left: 33px;
+    font-size: 20px;
+}
+.management span{
+    color: aqua;
+}
+.management button{
+    height: 25px;
+    width: 230px;
+    position: absolute;
+    top: 780px;
+    left: 30px;
+    font-size: 16px;
+    color: aqua;
+}
+
+.event h1{
+    position: absolute;
+    top: 850px;
+    left: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.event p{
+    position: absolute;
+    top: 900px;
+    left: 33px;
+    font-size: 20px;
+}
+.event span{
+    color: aqua;
+}
+.event button{
+    height: 25px;
+    width: 230px;
+    position: absolute;
+    top: 1000px;
+    left: 30px;
+    font-size: 16px;
+    color: aqua;
+}
+.main img{
+    height: 620px;
+    width: 1210px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    bottom: 10px;
+    opacity: 0.9;
+}
+.p1{
+    position: absolute;
+    top: 420px;
+    left: 300px;
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    padding-top: 10px;
+    background-color: aqua;
+    border-radius: 2px;
+}
+.p2{
+    position: absolute;
+    top: 461px;
+    left: 300px;
+    height: 25px;
+    width: 500px;
+    font-size: 18px;
+    padding-top: 8px;
+    background-color:black;
+    color: aliceblue;
+    border-radius: 2px;
+}
+.main button{
+    height: 30px;
+    width: 300px;
+    position: relative;
+    bottom: 530px;
+    left: 300px;
+    color: aqua;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: antiquewhite;
+    border:1px solid gray;
+}
+.bar{
+    position: absolute;
+    top: 656px;
+    left: 300px;
+    height: 50px;
+    width: 1220px;
+}
+.bar img{
+    height: 50px;
+    width: 70px;
+    padding-left: 10px;
+}
+.bar p{
+    position: absolute;
+    bottom: 7px;
+    left: 90px;
+}
+.bar input{
+    height: 27px;
+    width: 200px;
+    position: absolute;
+    left: 900px;
+    top: 10px;
+    border-radius: 2px;
+}
+.bar button{
+    height: 28px;
+    width: 80px;
+    position: absolute;
+    left: 1110px;
+    top: 10px;
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.crd1{
+    height: 430px;
+    width: 250px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 720px;
+    left: 320px;
+    text-align: center;
+
+}
+.crd1 h3{
+    color: aqua;
+}
+.crd1 img{
+    height: 150px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.crd1 button{
+    height: 30px;
+    width: 150px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: aqua;
+    border-radius: 5px;
+}
+.crd2{
+    height: 430px;
+    width: 250px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 720px;
+    left: 640px;
+    text-align: center;
+
+}
+.crd2 h3{
+    color: aqua;
+}
+.crd2 img{
+    height: 150px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.crd2 button{
+    height: 30px;
+    width: 150px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: aqua;
+    border-radius: 5px;
+}
+
+.crd3{
+    height: 430px;
+    width: 250px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 720px;
+    left: 950px;
+    text-align: center;
+
+}
+.crd3 h3{
+    color: aqua;
+}
+.crd3 img{
+    height: 150px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.crd3 button{
+    height: 30px;
+    width: 150px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: aqua;
+    border-radius: 5px;
+}
+
+.crd4{
+    height: 430px;
+    width: 250px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 720px;
+    left: 1250px;
+    text-align: center;
+
+}
+.crd4 h3{
+    color: aqua;
+}
+.crd4 img{
+    height: 150px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.crd4 button{
+    height: 30px;
+    width: 150px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: aqua;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width:501px) and (max-width:1020px){
+    aside{
+       height: 150px;
+        width: 466px;
+        background-color: aliceblue;
+        
+    }
+    
+    aside img{
+        height: 140px;
+        width: 120px;
+        position: absolute;
+        top: 10px;
+        left:0px;
+    }
+    aside span img{
+        position: absolute;
+        top: 55px;
+        height: 30px;
+        width: 20px;
+        left:160px;
+    }
+    aside p1{
+        position: absolute;
+        top: 85px;
+        left: 140px;
+        font-size: 15px;
+        color: aqua;
+        font-weight: bolder;
+    }
+    
+    .img1{
+        position: absolute;
+        top: 57px;
+        left: 230px;
+    }
+    aside p2{
+        position: absolute;
+        top: 85px;
+        left: 225px;
+        font-size: 15px;
+        color: aqua;
+        font-weight: bolder;
+    }
+    .img2{
+        position: absolute;
+        top: 57px;
+        left: 300px;
+    }
+    aside p3{
+        position: absolute;
+        top: 85px;
+        left: 280px;
+        font-size: 15px;
+        color: aqua;
+        font-weight: bolder;
+    }
+    .img3{
+        position: absolute;
+        top: 57px;
+        left: 380px;
+    }
+    aside p4{
+        position: absolute;
+        top: 85px;
+        left: 360px;
+        font-size: 15px;
+        color: aqua;
+        font-weight: bolder;
+    }
+    .img4{
+        position: absolute;
+        top: 57px;
+        left: 436px;
+    }
+    aside p5{
+        position: absolute;
+        top: 85px;
+        left: 425px;
+        font-size: 15px;
+        color: aqua;
+        font-weight: bolder;
+    }
+
+    .management{
+        display: none;
+    }
+.event{
+    display: none;
+}
+
+
+
+
+    .main img{
+        height: 500px;
+        width: 466px;
+        position: absolute;
+        top: 150px;
+        left:0px;
+        opacity: 0.9;
+    }
+    .p1{
+        position: absolute;
+        top: 530px;
+        left: 0px;
+        height: 30px;
+        width: 200px;
+        font-size: 18px;
+        padding-top: 10px;
+        background-color: aqua;
+        border-radius: 2px;
+    }
+    .p2{
+        position: absolute;
+        top: 570px;
+        left: 0px;
+        height: 25px;
+        width: 400px;
+        font-size: 14px;
+        padding-top: 8px;
+        background-color:black;
+        color: aliceblue;
+        border-radius: 2px;
+    }
+    .main button{
+        height: 30px;
+        width: 300px;
+        position: relative;
+        bottom: 578px;
+        left: 0px;
+        color: aqua;
+        font-weight: bolder;
+        font-size: 15px;
+        background-color: antiquewhite;
+        border:1px solid gray;
+    }
+    .bar{
+        position: absolute;
+        top: 656px;
+        left: 0px;
+        height: 50px;
+        width: 466px;
+    }
+    .bar img{
+        height: 30px;
+        width: 45px;
+        padding-left:2px;
+    }
+    .bar p{
+        width: 275px;
+        position: absolute;
+        bottom: 5px;
+        left:55px;
+        font-size:7px;
+        bottom: 20px;
+
+    }
+    .bar input{
+        height: 15px;
+        width: 75px;
+        position: absolute;
+        left: 320px;
+        top: 5px;
+        border-radius: 2px;
+    }
+    .bar button{
+        height: 17px;
+        width: 50px;
+        position: absolute;
+        left: 398px;
+        top: 5px;
+        border-radius: 2px;
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .crd1{
+        height: 450px;
+        width: 200px;
+        border: 1px solid gray;
+        position: absolute;
+        top: 720px;
+        left: 10px;
+        text-align: center;
+    
+    }
+    .crd2{
+        height: 450px;
+        width: 200px;
+        border: 1px solid gray;
+        position: absolute;
+        top: 720px;
+        left: 230px;
+        text-align: center;
+    
+    }
+    .crd3{
+        height: 450px;
+        width: 200px;
+        border: 1px solid gray;
+        position: absolute;
+        top: 1200px;
+        left: 10px;
+        text-align: center;
+    
+    }
+    .crd4{
+        height: 450px;
+        width: 200px;
+        border: 1px solid gray;
+        position: absolute;
+        top: 1200px;
+        left: 230px;
+        text-align: center;
+    
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:500px){
+    aside{
+        height: 150px;
+         width: 400px;
+         background-color: aliceblue;
+         
+     }
+     aside img{
+        height: 75px;
+        width: 120px;
+        position: absolute;
+        top: 25px;
+        left:135px;
+    }
+
+
+
+    aside span img{
+       display: none;
+    }
+    aside p1{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-size: 18px;
+        color: aqua;
+        font-weight: bolder;
+    }
+    
+    .img1{
+        display: none;
+    }
+    aside p2{
+        position: absolute;
+        top: 0px;
+        left:95px;
+        font-size: 18px;
+        color: aqua;
+        font-weight: bolder;
+    }
+    .img2{
+        display: none;
+    }
+    aside p3{
+        position: absolute;
+        top: 0px;
+        left: 150px;
+        font-size: 18px;
+        color: aqua;
+        font-weight: bolder;
+    }
+    .img3{
+        display: none;
+    }
+    aside p4{
+        position: absolute;
+        top: 0px;
+        left: 240px;
+        font-size: 18px;
+        color: aqua;
+        font-weight: bolder;
+    }
+    .img4{
+        display: none;
+    }
+    aside p5{
+        position: absolute;
+        top: 0px;
+        left: 320px;
+        font-size: 18px;
+        color: aqua;
+        font-weight: bolder;
+    }
+
+    .management{
+        display: none;
+    }
+.event{
+    display: none;
+}
+
+     .main img{
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        top: 100px;
+        left:0px;
+        opacity: 0.9;
+    }
+    .p1{
+        position: absolute;
+        top: 400px;
+        left: 0px;
+        height: 25px;
+        width: 395px;
+        font-size: 18px;
+        padding-top: 10px;
+        background-color: rgb(243, 246, 246);
+        border-radius: 2px;
+    }
+    .p2{
+        position: absolute;
+        top: 436px;
+        left: 0px;
+        height: 25px;
+        width: 395px;
+        font-size: 13px;
+        padding-top: 8px;
+        background-color:black;
+        color: aliceblue;
+        border-radius: 2px;
+    }
+    .bar{
+        position: absolute;
+        top: 500px;
+        left: 0px;
+        height:50px;
+        width: 400px;
+    }
+    .bar img{
+        height:20px;
+        width: 35px;
+        padding-left:5px;
+    }
+    .bar p{
+        width: 400px;
+        position: absolute;
+        bottom: 30px;
+        left:47px;
+        font-size:7px;
+    }
+    .bar input{
+        height: 15px;
+        width: 220px;
+        position: absolute;
+        left: 5px;
+        top: 28px;
+        border-radius: 2px;
+    }
+    .bar button{
+        height: 17px;
+        width: 120px;
+        position: absolute;
+        left: 230px;
+        top: 28px;
+        border-radius: 2px;
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .crd1{
+        height: 450px;
+        width: 250px;
+        border: 1px solid gray;
+        position: absolute;
+        top: 580px;
+        left: 70px;
+        text-align: center;
+    border-radius: 10px;
+    }
+    .crd2{
+        height: 450px;
+        width: 250px;
+        border: 1px solid gray;
+        position: absolute;
+        top: 1050px;
+        left: 70px;
+        text-align: center;
+    border-radius: 10px;
+    }
+    .crd3{
+        height: 450px;
+        width: 250px;
+        border: 1px solid gray;
+        position: absolute;
+        top: 1520px;
+        left: 70px;
+        text-align: center;
+    border-radius: 10px;
+    }
+    .crd4{
+        height: 450px;
+        width: 250px;
+        border: 1px solid gray;
+        position: absolute;
+        top: 1990px;
+        left: 70px;
+        text-align: center;
+    border-radius: 10px;
+    }
+
+}
+
+/*width: 400px;
